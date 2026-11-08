@@ -1,0 +1,13 @@
+{
+  "name": "smartprinter-uk",
+  "private": true,
+  "description": "smartprinter.uk: static site for the Smart Printer, FAX and PDF Editor apps.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && cd dist && python3 -m http.server 8788"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
